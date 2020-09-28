@@ -1,0 +1,30 @@
+#learn {
+	color:pink;
+	font-size:70px;
+	text-align: center;
+}
+button {
+	border-radius:50px 20px;
+}
+
+#p1{
+   font-size:50px; 
+   text-align: center;
+
+}
+img{
+
+     border-radius:50%;
+
+}
+.center{
+	 display:block;
+	 margin-left: auto;
+     margin-right: auto;
+
+}
+#div3{
+	margin-left:auto;
+	margin-right: auto;
+}
+#
