@@ -3,8 +3,13 @@
 	font-size:70px;
 	text-align: center;
 }
+body{
+	background-color:grey;
+}
 button {
 	border-radius:50px 20px;
+	width:70px;
+	height:50px;
 }
 
 #p1{
@@ -18,13 +23,60 @@ img{
 
 }
 .center{
+	 width:400px;
+	 height:250px;
 	 display:block;
 	 margin-left: auto;
      margin-right: auto;
 
 }
-#div3{
-	margin-left:auto;
-	margin-right: auto;
+#div1{
+	width:600px;
+	height:50px;
+	padding-left:40%;
+	padding-right:30%;
+	
 }
-#
+#div3{
+	
+	width:600px;
+	height:300px;
+	padding-left:30%;
+	padding-right:30%;
+}
+#b1{
+	border-color:red;
+	border-width:10px;
+}
+#b2{
+	border-color:blue;
+	border-width:10px;
+}
+#b3{
+	border-color:green;
+	border-width:10px;
+}
+#b4{
+	border-color:orange;
+	border-width:10px;
+}
+#b5{
+	border-color:yellow;
+	border-width:10px;
+}
+#b6{
+	border-color:pink;
+	border-width:10px;
+}
+#b7{
+	border-color:purple;
+	border-width:10px;
+}
+#b8{
+	border-color:lime;
+	border-width:10px;
+}
+#b9{
+	border-color:violet;
+	border-width:10px;
+}

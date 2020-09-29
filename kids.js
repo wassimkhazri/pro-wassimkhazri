@@ -1,19 +1,23 @@
 
 $(document).ready(function(){
 	   $("#b1").click(function(){
-		    $("body").css("background-color","red");
-		   
+		    $("body").css("background-color","red");  
+		    $("#div3").html(""); 
 		    $("#div3").append('<p id="p1";width="40%">what is the name of this color?</p>');
 		    $("#div3").append('<button id="div31";width:"30%">blue</button>');
 		    $("#div3").append('<button id="div32">red</button>');
 		    $("#div3").append('<button id="div33">yellow</button>');
 		    $("#div31").click(function(){
+		      	
 	   	      alert("please try again the color is not blue");
-	   }); $("#div3").html("");
+	   }); 
 		    $("#div32").click(function(){
+		      $("#div3").html(""); 
 	   	      alert("good job the color is red");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 		    $("#div33").click(function(){
+
 	   	      alert("please try again the color is not yellow");
 	   });
 		});
@@ -31,7 +35,9 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not red");
 	   });
 		    $("#div36").click(function(){
+		      $("#div3").html("");	
 	   	      alert("good job the color is blue");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 
 		});
@@ -47,7 +53,10 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not grey");
 	   });
 		    $("#div38").click(function(){
+		     $("#div3").html("");	
 	   	      alert("good job the color is green");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
+
 	   });
 		    $("#div39").click(function(){
 	   	      alert("please try again the color is not yellow");
@@ -62,7 +71,9 @@ $(document).ready(function(){
 		    $("#div3").append('<button id="div311">red</button>');
 		    $("#div3").append('<button id="div312">yellow</button>');
 		    $("#div310").click(function(){
+		      $("#div3").html("");
 	   	      alert("good job the color is orange");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 		    $("#div311").click(function(){
 	   	      alert("please try again the color is not red");
@@ -86,7 +97,9 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not red");
 	   });
 		    $("#div315").click(function(){
+		     $("#div3").html("");
 	   	      alert("good job the color is yellow");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 		});
 	
@@ -101,7 +114,9 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not yellow");
 	   });
 		    $("#div317").click(function(){
+		      $("#div3").html("");	
 	   	      alert("good job the color is pink");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 		    $("#div318").click(function(){
 	   	      alert("please try again the color is not blue");
@@ -122,7 +137,9 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not red");
 	   });
 		    $("#div321").click(function(){
+		    $("#div3").html("");
 	   	      alert("good job the color is purple");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 		});
 	
@@ -137,7 +154,9 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not blue");
 	   });
 		    $("#div323").click(function(){
+		    $("#div3").html("");
 	   	      alert("good job the color is lime");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 		    $("#div324").click(function(){
 	   	      alert("please try again the color is not yellow");
@@ -157,7 +176,9 @@ $(document).ready(function(){
 	   	      alert("please try again the color is not red");
 	   });
 	    	$("#div327").click(function(){
+	    	$("#div3").html("");
 	   	      alert("good job the color is violet");
+	   	      $("#div3").append('<span style="font-size:200px;">&#128512;</span>');
 	   });
 	    });
 	   
